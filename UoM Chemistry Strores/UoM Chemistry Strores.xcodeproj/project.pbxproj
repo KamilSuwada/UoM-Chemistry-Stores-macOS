@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7FAA06242903EF53000FDCE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FAA06232903EF53000FDCE5 /* Assets.xcassets */; };
+		7FAA06562903EFA3000FDCE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAA062E2903EFA2000FDCE5 /* AppDelegate.swift */; };
+		7FAA06572903EFA3000FDCE5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAA062F2903EFA3000FDCE5 /* Constants.swift */; };
+		7FAA06582903EFA3000FDCE5 /* ItemCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAA06322903EFA3000FDCE5 /* ItemCellView.swift */; };
+		7FAA06592903EFA3000FDCE5 /* SettingsCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAA06332903EFA3000FDCE5 /* SettingsCellView.swift */; };
+		7FAA065A2903EFA3000FDCE5 /* ItemsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAA06342903EFA3000FDCE5 /* ItemsVC.swift */; };
+		7FAA065B2903EFA3000FDCE5 /* BasketVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAA06352903EFA3000FDCE5 /* BasketVC.swift */; };
+		7FAA065C2903EFA3000FDCE5 /* ItemsAndBasketSplitVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAA06362903EFA3000FDCE5 /* ItemsAndBasketSplitVC.swift */; };
+		7FAA065D2903EFA3000FDCE5 /* WindowSplitVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAA06372903EFA3000FDCE5 /* WindowSplitVC.swift */; };
+		7FAA065E2903EFA3000FDCE5 /* CategoriesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAA06382903EFA3000FDCE5 /* CategoriesVC.swift */; };
+		7FAA065F2903EFA3000FDCE5 /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAA063A2903EFA3000FDCE5 /* OrderViewController.swift */; };
+		7FAA06602903EFA3000FDCE5 /* UpdateDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAA063B2903EFA3000FDCE5 /* UpdateDetailsViewController.swift */; };
+		7FAA06612903EFA3000FDCE5 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAA063C2903EFA3000FDCE5 /* InfoViewController.swift */; };
+		7FAA06622903EFA3000FDCE5 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAA063D2903EFA3000FDCE5 /* SettingsViewController.swift */; };
+		7FAA06632903EFA3000FDCE5 /* WindowVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAA063E2903EFA3000FDCE5 /* WindowVC.swift */; };
+		7FAA06642903EFA3000FDCE5 /* Chem_Database.json in Resources */ = {isa = PBXBuildFile; fileRef = 7FAA063F2903EFA3000FDCE5 /* Chem_Database.json */; };
+		7FAA06652903EFA3000FDCE5 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAA06412903EFA3000FDCE5 /* Order.swift */; };
+		7FAA06662903EFA3000FDCE5 /* SearchResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAA06422903EFA3000FDCE5 /* SearchResults.swift */; };
+		7FAA06672903EFA3000FDCE5 /* NSTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAA06442903EFA3000FDCE5 /* NSTextField.swift */; };
+		7FAA06682903EFA3000FDCE5 /* OrderPreference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAA06452903EFA3000FDCE5 /* OrderPreference.swift */; };
+		7FAA06692903EFA3000FDCE5 /* AppDestructor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAA06462903EFA3000FDCE5 /* AppDestructor.swift */; };
+		7FAA066A2903EFA3000FDCE5 /* JSONSubcategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAA06482903EFA3000FDCE5 /* JSONSubcategory.swift */; };
+		7FAA066B2903EFA3000FDCE5 /* JSONCoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAA06492903EFA3000FDCE5 /* JSONCoder.swift */; };
+		7FAA066C2903EFA3000FDCE5 /* JSONCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAA064A2903EFA3000FDCE5 /* JSONCategory.swift */; };
+		7FAA066D2903EFA3000FDCE5 /* JSONItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAA064B2903EFA3000FDCE5 /* JSONItem.swift */; };
+		7FAA066E2903EFA3000FDCE5 /* AppLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAA064C2903EFA3000FDCE5 /* AppLogic.swift */; };
+		7FAA066F2903EFA3000FDCE5 /* Subcategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAA064E2903EFA3000FDCE5 /* Subcategory.swift */; };
+		7FAA06702903EFA3000FDCE5 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAA064F2903EFA3000FDCE5 /* Item.swift */; };
+		7FAA06712903EFA3000FDCE5 /* PersonalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAA06502903EFA3000FDCE5 /* PersonalData.swift */; };
+		7FAA06722903EFA3000FDCE5 /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAA06512903EFA3000FDCE5 /* UserSettings.swift */; };
+		7FAA06732903EFA3000FDCE5 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAA06522903EFA3000FDCE5 /* Category.swift */; };
+		7FAA06742903EFA3000FDCE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FAA06542903EFA3000FDCE5 /* Main.storyboard */; };
+		7FAA06772903EFCA000FDCE5 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 7FAA06762903EFCA000FDCE5 /* Realm */; };
+		7FAA06792903EFCA000FDCE5 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 7FAA06782903EFCA000FDCE5 /* RealmSwift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7FAA061C2903EF52000FDCE5 /* UoM Chemistry Strores.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UoM Chemistry Strores.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FAA06232903EF53000FDCE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7FAA06282903EF53000FDCE5 /* UoM_Chemistry_Strores.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = UoM_Chemistry_Strores.entitlements; sourceTree = "<group>"; };
+		7FAA062E2903EFA2000FDCE5 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7FAA062F2903EFA3000FDCE5 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		7FAA06322903EFA3000FDCE5 /* ItemCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCellView.swift; sourceTree = "<group>"; };
+		7FAA06332903EFA3000FDCE5 /* SettingsCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsCellView.swift; sourceTree = "<group>"; };
+		7FAA06342903EFA3000FDCE5 /* ItemsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsVC.swift; sourceTree = "<group>"; };
+		7FAA06352903EFA3000FDCE5 /* BasketVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasketVC.swift; sourceTree = "<group>"; };
+		7FAA06362903EFA3000FDCE5 /* ItemsAndBasketSplitVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsAndBasketSplitVC.swift; sourceTree = "<group>"; };
+		7FAA06372903EFA3000FDCE5 /* WindowSplitVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindowSplitVC.swift; sourceTree = "<group>"; };
+		7FAA06382903EFA3000FDCE5 /* CategoriesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesVC.swift; sourceTree = "<group>"; };
+		7FAA063A2903EFA3000FDCE5 /* OrderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
+		7FAA063B2903EFA3000FDCE5 /* UpdateDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateDetailsViewController.swift; sourceTree = "<group>"; };
+		7FAA063C2903EFA3000FDCE5 /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		7FAA063D2903EFA3000FDCE5 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		7FAA063E2903EFA3000FDCE5 /* WindowVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindowVC.swift; sourceTree = "<group>"; };
+		7FAA063F2903EFA3000FDCE5 /* Chem_Database.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Chem_Database.json; sourceTree = "<group>"; };
+		7FAA06412903EFA3000FDCE5 /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		7FAA06422903EFA3000FDCE5 /* SearchResults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResults.swift; sourceTree = "<group>"; };
+		7FAA06442903EFA3000FDCE5 /* NSTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSTextField.swift; sourceTree = "<group>"; };
+		7FAA06452903EFA3000FDCE5 /* OrderPreference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderPreference.swift; sourceTree = "<group>"; };
+		7FAA06462903EFA3000FDCE5 /* AppDestructor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDestructor.swift; sourceTree = "<group>"; };
+		7FAA06482903EFA3000FDCE5 /* JSONSubcategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONSubcategory.swift; sourceTree = "<group>"; };
+		7FAA06492903EFA3000FDCE5 /* JSONCoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONCoder.swift; sourceTree = "<group>"; };
+		7FAA064A2903EFA3000FDCE5 /* JSONCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONCategory.swift; sourceTree = "<group>"; };
+		7FAA064B2903EFA3000FDCE5 /* JSONItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONItem.swift; sourceTree = "<group>"; };
+		7FAA064C2903EFA3000FDCE5 /* AppLogic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppLogic.swift; sourceTree = "<group>"; };
+		7FAA064E2903EFA3000FDCE5 /* Subcategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Subcategory.swift; sourceTree = "<group>"; };
+		7FAA064F2903EFA3000FDCE5 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		7FAA06502903EFA3000FDCE5 /* PersonalData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalData.swift; sourceTree = "<group>"; };
+		7FAA06512903EFA3000FDCE5 /* UserSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
+		7FAA06522903EFA3000FDCE5 /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		7FAA06552903EFA3000FDCE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7FAA06192903EF52000FDCE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FAA06792903EFCA000FDCE5 /* RealmSwift in Frameworks */,
+				7FAA06772903EFCA000FDCE5 /* Realm in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7FAA06132903EF52000FDCE5 = {
+			isa = PBXGroup;
+			children = (
+				7FAA061E2903EF52000FDCE5 /* UoM Chemistry Strores */,
+				7FAA061D2903EF52000FDCE5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7FAA061D2903EF52000FDCE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FAA061C2903EF52000FDCE5 /* UoM Chemistry Strores.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7FAA061E2903EF52000FDCE5 /* UoM Chemistry Strores */ = {
+			isa = PBXGroup;
+			children = (
+				7FAA06232903EF53000FDCE5 /* Assets.xcassets */,
+				7FAA06282903EF53000FDCE5 /* UoM_Chemistry_Strores.entitlements */,
+				7FAA062E2903EFA2000FDCE5 /* AppDelegate.swift */,
+				7FAA063F2903EFA3000FDCE5 /* Chem_Database.json */,
+				7FAA062F2903EFA3000FDCE5 /* Constants.swift */,
+				7FAA06302903EFA3000FDCE5 /* Controllers */,
+				7FAA06402903EFA3000FDCE5 /* Model */,
+				7FAA06532903EFA3000FDCE5 /* Views */,
+			);
+			path = "UoM Chemistry Strores";
+			sourceTree = "<group>";
+		};
+		7FAA06302903EFA3000FDCE5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7FAA06312903EFA3000FDCE5 /* Cells */,
+				7FAA06342903EFA3000FDCE5 /* ItemsVC.swift */,
+				7FAA06352903EFA3000FDCE5 /* BasketVC.swift */,
+				7FAA06362903EFA3000FDCE5 /* ItemsAndBasketSplitVC.swift */,
+				7FAA06372903EFA3000FDCE5 /* WindowSplitVC.swift */,
+				7FAA06382903EFA3000FDCE5 /* CategoriesVC.swift */,
+				7FAA06392903EFA3000FDCE5 /* Popovers */,
+				7FAA063E2903EFA3000FDCE5 /* WindowVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		7FAA06312903EFA3000FDCE5 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				7FAA06322903EFA3000FDCE5 /* ItemCellView.swift */,
+				7FAA06332903EFA3000FDCE5 /* SettingsCellView.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		7FAA06392903EFA3000FDCE5 /* Popovers */ = {
+			isa = PBXGroup;
+			children = (
+				7FAA063A2903EFA3000FDCE5 /* OrderViewController.swift */,
+				7FAA063B2903EFA3000FDCE5 /* UpdateDetailsViewController.swift */,
+				7FAA063C2903EFA3000FDCE5 /* InfoViewController.swift */,
+				7FAA063D2903EFA3000FDCE5 /* SettingsViewController.swift */,
+			);
+			path = Popovers;
+			sourceTree = "<group>";
+		};
+		7FAA06402903EFA3000FDCE5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7FAA06412903EFA3000FDCE5 /* Order.swift */,
+				7FAA06422903EFA3000FDCE5 /* SearchResults.swift */,
+				7FAA06432903EFA3000FDCE5 /* Extensions */,
+				7FAA06452903EFA3000FDCE5 /* OrderPreference.swift */,
+				7FAA06462903EFA3000FDCE5 /* AppDestructor.swift */,
+				7FAA06472903EFA3000FDCE5 /* JSON */,
+				7FAA064C2903EFA3000FDCE5 /* AppLogic.swift */,
+				7FAA064D2903EFA3000FDCE5 /* Realm */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7FAA06432903EFA3000FDCE5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7FAA06442903EFA3000FDCE5 /* NSTextField.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		7FAA06472903EFA3000FDCE5 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				7FAA06482903EFA3000FDCE5 /* JSONSubcategory.swift */,
+				7FAA06492903EFA3000FDCE5 /* JSONCoder.swift */,
+				7FAA064A2903EFA3000FDCE5 /* JSONCategory.swift */,
+				7FAA064B2903EFA3000FDCE5 /* JSONItem.swift */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		7FAA064D2903EFA3000FDCE5 /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+				7FAA064E2903EFA3000FDCE5 /* Subcategory.swift */,
+				7FAA064F2903EFA3000FDCE5 /* Item.swift */,
+				7FAA06502903EFA3000FDCE5 /* PersonalData.swift */,
+				7FAA06512903EFA3000FDCE5 /* UserSettings.swift */,
+				7FAA06522903EFA3000FDCE5 /* Category.swift */,
+			);
+			path = Realm;
+			sourceTree = "<group>";
+		};
+		7FAA06532903EFA3000FDCE5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7FAA06542903EFA3000FDCE5 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7FAA061B2903EF52000FDCE5 /* UoM Chemistry Strores */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FAA062B2903EF53000FDCE5 /* Build configuration list for PBXNativeTarget "UoM Chemistry Strores" */;
+			buildPhases = (
+				7FAA06182903EF52000FDCE5 /* Sources */,
+				7FAA06192903EF52000FDCE5 /* Frameworks */,
+				7FAA061A2903EF52000FDCE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UoM Chemistry Strores";
+			packageProductDependencies = (
+				7FAA06762903EFCA000FDCE5 /* Realm */,
+				7FAA06782903EFCA000FDCE5 /* RealmSwift */,
+			);
+			productName = "UoM Chemistry Strores";
+			productReference = 7FAA061C2903EF52000FDCE5 /* UoM Chemistry Strores.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7FAA06142903EF52000FDCE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					7FAA061B2903EF52000FDCE5 = {
+						CreatedOnToolsVersion = 14.0.1;
+						LastSwiftMigration = 1400;
+					};
+				};
+			};
+			buildConfigurationList = 7FAA06172903EF52000FDCE5 /* Build configuration list for PBXProject "UoM Chemistry Strores" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7FAA06132903EF52000FDCE5;
+			packageReferences = (
+				7FAA06752903EFCA000FDCE5 /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
+			productRefGroup = 7FAA061D2903EF52000FDCE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7FAA061B2903EF52000FDCE5 /* UoM Chemistry Strores */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7FAA061A2903EF52000FDCE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FAA06742903EFA3000FDCE5 /* Main.storyboard in Resources */,
+				7FAA06242903EF53000FDCE5 /* Assets.xcassets in Resources */,
+				7FAA06642903EFA3000FDCE5 /* Chem_Database.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7FAA06182903EF52000FDCE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FAA066E2903EFA3000FDCE5 /* AppLogic.swift in Sources */,
+				7FAA06582903EFA3000FDCE5 /* ItemCellView.swift in Sources */,
+				7FAA065F2903EFA3000FDCE5 /* OrderViewController.swift in Sources */,
+				7FAA06632903EFA3000FDCE5 /* WindowVC.swift in Sources */,
+				7FAA06592903EFA3000FDCE5 /* SettingsCellView.swift in Sources */,
+				7FAA066B2903EFA3000FDCE5 /* JSONCoder.swift in Sources */,
+				7FAA065C2903EFA3000FDCE5 /* ItemsAndBasketSplitVC.swift in Sources */,
+				7FAA065D2903EFA3000FDCE5 /* WindowSplitVC.swift in Sources */,
+				7FAA06662903EFA3000FDCE5 /* SearchResults.swift in Sources */,
+				7FAA06562903EFA3000FDCE5 /* AppDelegate.swift in Sources */,
+				7FAA066D2903EFA3000FDCE5 /* JSONItem.swift in Sources */,
+				7FAA06602903EFA3000FDCE5 /* UpdateDetailsViewController.swift in Sources */,
+				7FAA06682903EFA3000FDCE5 /* OrderPreference.swift in Sources */,
+				7FAA065A2903EFA3000FDCE5 /* ItemsVC.swift in Sources */,
+				7FAA065E2903EFA3000FDCE5 /* CategoriesVC.swift in Sources */,
+				7FAA065B2903EFA3000FDCE5 /* BasketVC.swift in Sources */,
+				7FAA06672903EFA3000FDCE5 /* NSTextField.swift in Sources */,
+				7FAA06692903EFA3000FDCE5 /* AppDestructor.swift in Sources */,
+				7FAA06622903EFA3000FDCE5 /* SettingsViewController.swift in Sources */,
+				7FAA06652903EFA3000FDCE5 /* Order.swift in Sources */,
+				7FAA06702903EFA3000FDCE5 /* Item.swift in Sources */,
+				7FAA06612903EFA3000FDCE5 /* InfoViewController.swift in Sources */,
+				7FAA066F2903EFA3000FDCE5 /* Subcategory.swift in Sources */,
+				7FAA06712903EFA3000FDCE5 /* PersonalData.swift in Sources */,
+				7FAA066C2903EFA3000FDCE5 /* JSONCategory.swift in Sources */,
+				7FAA06732903EFA3000FDCE5 /* Category.swift in Sources */,
+				7FAA06722903EFA3000FDCE5 /* UserSettings.swift in Sources */,
+				7FAA066A2903EFA3000FDCE5 /* JSONSubcategory.swift in Sources */,
+				7FAA06572903EFA3000FDCE5 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7FAA06542903EFA3000FDCE5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FAA06552903EFA3000FDCE5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7FAA06292903EF53000FDCE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7FAA062A2903EF53000FDCE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		7FAA062C2903EF53000FDCE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "UoM Chemistry Strores/UoM_Chemistry_Strores.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3RLAVX9QDP;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KS.UoM-Chemistry-Strores";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7FAA062D2903EF53000FDCE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "UoM Chemistry Strores/UoM_Chemistry_Strores.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3RLAVX9QDP;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KS.UoM-Chemistry-Strores";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7FAA06172903EF52000FDCE5 /* Build configuration list for PBXProject "UoM Chemistry Strores" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FAA06292903EF53000FDCE5 /* Debug */,
+				7FAA062A2903EF53000FDCE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FAA062B2903EF53000FDCE5 /* Build configuration list for PBXNativeTarget "UoM Chemistry Strores" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FAA062C2903EF53000FDCE5 /* Debug */,
+				7FAA062D2903EF53000FDCE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7FAA06752903EFCA000FDCE5 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7FAA06762903EFCA000FDCE5 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7FAA06752903EFCA000FDCE5 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		7FAA06782903EFCA000FDCE5 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7FAA06752903EFCA000FDCE5 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 7FAA06142903EF52000FDCE5 /* Project object */;
+}
